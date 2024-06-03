@@ -1,5 +1,5 @@
 {
-  "name": "youtube-music",
+  "name": "youtube-music-downloader",
   "version": "1.0.0",
   "description": "module to download youtube video and convert into music",
   "main": "dist/app.js",
