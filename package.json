@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "module to download youtube video and convert into music",
   "main": "dist/app.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "node dist/app.js"
+    "dev": "tsc && node dist/app.js"
   },
   "keywords": [
     "converter",

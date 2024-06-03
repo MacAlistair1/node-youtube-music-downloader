@@ -4,7 +4,7 @@ import ytdl from "ytdl-core";
 import { exec } from "child_process";
 import { existsSync, mkdirSync } from "fs";
 
-const ffmpegPath = "/usr/bin/ffmpeg";
+const ffmpegPath = "ffmpeg"; //usr/bin/ffmpeg
 
 const app = express();
 const port = 3000;
