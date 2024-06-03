@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "module to download youtube video and convert into music",
   "main": "dist/app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -15,6 +16,10 @@
     "video",
     "app"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacAlistair1/node-youtube-music-downloader.git"
+  },
   "author": "Jeeven Lamichhane",
   "license": "ISC",
   "dependencies": {
@@ -33,5 +38,9 @@
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.3.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/MacAlistair1/node-youtube-music-downloader/issues"
+  },
+  "homepage": "https://github.com/MacAlistair1/node-youtube-music-downloader#README.md"
 }
